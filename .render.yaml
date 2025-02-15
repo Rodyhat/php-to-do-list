@@ -1,6 +1,6 @@
-# services:
-#   - type: web
-#     name: todo-list-app
-#     env: php
-#     buildCommand: "composer install"   # Install PHP dependencies, if using Composer
-#     startCommand: "php -S 0.0.0.0:10000"  # Start the PHP web server
+services:
+  - type: web
+    name: todo-list-app
+    env: php
+    plan: free
+    startCommand: "php -S 0.0.0.0:10000"  # Start the PHP web server
