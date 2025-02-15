@@ -16,3 +16,4 @@ function loadEnv($path = '.env')
 
 // load env file
 loadEnv();
+?>
